@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="slide">
+        <img src="./images/9f385384cf86350110d2d0029a0dcc15.jpg" alt="" />
+        <div class="caption">Caption text 1</div>
+      </div>
+      <div class="slide">
+        <img
+          src="./images/kayak-boat-full-screen-hd-desktop-0mr2y1jsnimnbjin.webp"
+          alt=""
+        />
+        <div class="caption">Caption text 2</div>
+      </div>
+      <div class="slide">
+        <img
+          src="./images/park-walkway-full-desktop-screen-hd-s4oea7tx4qyquif6.webp"
+          alt=""
+        />
+        <div class="caption">Caption text 3</div>
+      </div>
+      <div class="slide">
+        <img
+          src="./images/beach-walkway-full-desktop-screen-hd-y455cao737f6hq3u.webp"
+          alt=""
+        />
+        <div class="caption">Caption text 4</div>
+      </div>
+      <span class="arrow prev" onclick="controller(-1)">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      </span>
+      <span class="arrow next" onclick="controller(1)">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
